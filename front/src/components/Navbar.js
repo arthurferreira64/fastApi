@@ -12,7 +12,7 @@ const Navbar = () => {
             to={"/"}
             className="self-center text-2xl font-semibold whitespace-nowrap"
           >
-            Dev Auth
+            Python module 3
           </Link>
         </div>
         <button
@@ -52,15 +52,13 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to={"/blog"}
+                to={"/create"}
                 className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:text-gray-900"
                 aria-current="page"
               >
-                Blog
+                Nouveau item
               </Link>
             </li>
-            
-
           </ul>
         </div>
       </div>
