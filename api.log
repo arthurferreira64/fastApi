@@ -1,0 +1,31 @@
+[2024-05-30 15:27:29,396] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:31:27,492] INFO in item: Creating item with title=test 2
+[2024-05-30 15:31:43,515] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:31:53,501] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:34:54,134] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:35:30,876] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:35:46,769] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:35:46,778] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:35:47,643] INFO in item: Deleting item with id 1
+[2024-05-30 15:35:47,643] INFO in item: Fetching item with id 1
+[2024-05-30 15:35:50,400] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:35:50,407] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:36:02,033] INFO in item: Creating item with title=test nouvel item
+[2024-05-30 15:36:02,057] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:36:02,064] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:38:26,085] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:38:26,090] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:39:51,984] INFO in item: Fetching item with id 1
+[2024-05-30 15:39:51,990] INFO in item: Fetching item with id 1
+[2024-05-30 15:40:27,506] INFO in item: Fetching item with id 1
+[2024-05-30 15:40:34,855] INFO in item: Fetching item with id 1
+[2024-05-30 15:40:41,076] INFO in item: Fetching item with id 1
+[2024-05-30 15:40:47,536] INFO in item: Fetching item with id 1
+[2024-05-30 15:41:00,087] INFO in item: Updating item with id 1
+[2024-05-30 15:41:00,087] INFO in item: Fetching item with id 1
+[2024-05-30 15:41:00,125] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:41:00,134] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:41:09,893] INFO in item: Deleting item with id 1
+[2024-05-30 15:41:09,893] INFO in item: Fetching item with id 1
+[2024-05-30 15:41:19,470] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-30 15:41:19,476] INFO in item: Fetching items with skip=0 and limit=10
