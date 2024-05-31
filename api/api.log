@@ -66,3 +66,24 @@
 [2024-05-31 12:46:53,009] INFO in item: Fetching item with id 8
 [2024-05-31 12:46:53,011] ERROR in item: Item with id 8 not found
 [2024-05-31 12:46:53,013] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/8 "HTTP/1.1 404 Not Found"
+[2024-05-31 14:00:57,764] INFO in item: Creating item with title=Test Item
+[2024-05-31 14:00:57,780] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,787] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-31 14:00:57,792] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,798] INFO in item: Creating item with title=Test Item
+[2024-05-31 14:00:57,809] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,813] INFO in item: Fetching item with id 9
+[2024-05-31 14:00:57,818] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/9 "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,825] INFO in item: Creating item with title=Test Item
+[2024-05-31 14:00:57,835] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,840] INFO in item: Updating item with id 10
+[2024-05-31 14:00:57,840] INFO in item: Fetching item with id 10
+[2024-05-31 14:00:57,852] INFO in _client: HTTP Request: PUT http://testserver/api/v1/items/10 "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,859] INFO in item: Creating item with title=Test Item
+[2024-05-31 14:00:57,868] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,872] INFO in item: Deleting item with id 11
+[2024-05-31 14:00:57,872] INFO in item: Fetching item with id 11
+[2024-05-31 14:00:57,881] INFO in _client: HTTP Request: DELETE http://testserver/api/v1/items/11 "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,884] INFO in item: Fetching item with id 11
+[2024-05-31 14:00:57,886] ERROR in item: Item with id 11 not found
+[2024-05-31 14:00:57,887] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/11 "HTTP/1.1 404 Not Found"
