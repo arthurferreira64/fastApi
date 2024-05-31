@@ -1,0 +1,89 @@
+[2024-05-31 12:29:07,838] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:29:08,011] INFO in _client: HTTP Request: GET http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:29:08,021] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:29:08,030] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:29:08,040] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:31:02,873] INFO in item: Creating item with title=Test Item
+[2024-05-31 12:31:02,891] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 12:31:02,897] INFO in _client: HTTP Request: GET http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:31:03,073] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:31:03,082] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:31:03,092] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:36:41,781] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:36:41,947] INFO in _client: HTTP Request: GET http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:36:41,957] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:36:41,969] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:36:41,977] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:41:47,742] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:41:47,900] INFO in _client: HTTP Request: GET http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:41:47,909] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:41:47,919] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:41:47,929] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:42:31,115] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:42:31,273] INFO in _client: HTTP Request: GET http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:42:31,283] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:42:31,293] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:42:31,302] INFO in _client: HTTP Request: POST http://testserver/items/ "HTTP/1.1 404 Not Found"
+[2024-05-31 12:45:26,538] INFO in item: Creating item with title=Test Item
+[2024-05-31 12:45:26,554] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 12:45:26,561] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-31 12:45:26,564] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 12:45:26,571] INFO in item: Creating item with title=Test Item
+[2024-05-31 12:45:26,580] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 12:45:26,584] INFO in item: Fetching item with id 3
+[2024-05-31 12:45:26,590] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/3 "HTTP/1.1 200 OK"
+[2024-05-31 12:45:26,596] INFO in item: Creating item with title=Test Item
+[2024-05-31 12:45:26,605] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 12:45:26,609] INFO in item: Updating item with id 4
+[2024-05-31 12:45:26,609] INFO in item: Fetching item with id 4
+[2024-05-31 12:45:26,621] INFO in _client: HTTP Request: PUT http://testserver/api/v1/items/4 "HTTP/1.1 200 OK"
+[2024-05-31 12:45:26,627] INFO in item: Creating item with title=Test Item
+[2024-05-31 12:45:26,636] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 12:45:26,641] INFO in item: Deleting item with id 5
+[2024-05-31 12:45:26,641] INFO in item: Fetching item with id 5
+[2024-05-31 12:45:26,651] INFO in _client: HTTP Request: DELETE http://testserver/api/v1/items/5 "HTTP/1.1 200 OK"
+[2024-05-31 12:45:26,655] INFO in item: Fetching item with id 5
+[2024-05-31 12:45:26,657] ERROR in item: Item with id 5 not found
+[2024-05-31 12:45:26,660] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/5 "HTTP/1.1 404 Not Found"
+[2024-05-31 12:46:52,896] INFO in item: Creating item with title=Test Item
+[2024-05-31 12:46:52,912] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 12:46:52,919] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-31 12:46:52,924] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 12:46:52,929] INFO in item: Creating item with title=Test Item
+[2024-05-31 12:46:52,939] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 12:46:52,943] INFO in item: Fetching item with id 6
+[2024-05-31 12:46:52,946] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/6 "HTTP/1.1 200 OK"
+[2024-05-31 12:46:52,952] INFO in item: Creating item with title=Test Item
+[2024-05-31 12:46:52,962] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 12:46:52,965] INFO in item: Updating item with id 7
+[2024-05-31 12:46:52,965] INFO in item: Fetching item with id 7
+[2024-05-31 12:46:52,979] INFO in _client: HTTP Request: PUT http://testserver/api/v1/items/7 "HTTP/1.1 200 OK"
+[2024-05-31 12:46:52,984] INFO in item: Creating item with title=Test Item
+[2024-05-31 12:46:52,993] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 12:46:52,997] INFO in item: Deleting item with id 8
+[2024-05-31 12:46:52,998] INFO in item: Fetching item with id 8
+[2024-05-31 12:46:53,004] INFO in _client: HTTP Request: DELETE http://testserver/api/v1/items/8 "HTTP/1.1 200 OK"
+[2024-05-31 12:46:53,009] INFO in item: Fetching item with id 8
+[2024-05-31 12:46:53,011] ERROR in item: Item with id 8 not found
+[2024-05-31 12:46:53,013] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/8 "HTTP/1.1 404 Not Found"
+[2024-05-31 14:00:57,764] INFO in item: Creating item with title=Test Item
+[2024-05-31 14:00:57,780] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,787] INFO in item: Fetching items with skip=0 and limit=10
+[2024-05-31 14:00:57,792] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,798] INFO in item: Creating item with title=Test Item
+[2024-05-31 14:00:57,809] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,813] INFO in item: Fetching item with id 9
+[2024-05-31 14:00:57,818] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/9 "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,825] INFO in item: Creating item with title=Test Item
+[2024-05-31 14:00:57,835] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,840] INFO in item: Updating item with id 10
+[2024-05-31 14:00:57,840] INFO in item: Fetching item with id 10
+[2024-05-31 14:00:57,852] INFO in _client: HTTP Request: PUT http://testserver/api/v1/items/10 "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,859] INFO in item: Creating item with title=Test Item
+[2024-05-31 14:00:57,868] INFO in _client: HTTP Request: POST http://testserver/api/v1/items/ "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,872] INFO in item: Deleting item with id 11
+[2024-05-31 14:00:57,872] INFO in item: Fetching item with id 11
+[2024-05-31 14:00:57,881] INFO in _client: HTTP Request: DELETE http://testserver/api/v1/items/11 "HTTP/1.1 200 OK"
+[2024-05-31 14:00:57,884] INFO in item: Fetching item with id 11
+[2024-05-31 14:00:57,886] ERROR in item: Item with id 11 not found
+[2024-05-31 14:00:57,887] INFO in _client: HTTP Request: GET http://testserver/api/v1/items/11 "HTTP/1.1 404 Not Found"

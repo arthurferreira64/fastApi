@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-from .database import engine
-from .models import item as item_model
-from .routes import item as item_route
-from .logging_config import setup_logging
+from api.database import engine
+from api.models import item as item_model
+from api.routes import item as item_route
+from api.logging_config import setup_logging
 from fastapi.middleware.cors import CORSMiddleware
 
 # Configurer le logging
